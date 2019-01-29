@@ -91,7 +91,7 @@
 			</ul>
 	</div>
 
-	<div id="carousel">
+	<div id="carousel" width=2048>
 		<div id="myCarousel" class="carousel slide">
 			<div class="carousel-inner">
 				<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner1.jpg" class="carousel"></div>
