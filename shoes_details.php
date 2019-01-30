@@ -119,7 +119,11 @@
 						<img class="img-polaroid" style="width:400px; height:350px;" src="photo/<?php echo $row['product_image']; ?>">
 						<h2 class="text-uppercase bg-primary"><?php echo $row['product_name']?></h2>
 						<h3 class="text-uppercase">Tsh. <?php echo $row['product_price']?></h3>
-						<h3 class="text-uppercase">Size: <input type="text" name="prod_size"/></h3>
+						<h3 class="text-uppercase">Size: <input type="text" name="prod_size" />
+							<?php  ?>
+
+
+						</h3>
 						<?php echo "<a href='cart.php?id=".$id."&action=add'><input type='submit' class='btn btn-inverse' name='add' value='Add to Cart'></a> &nbsp;  <a href='product1.php'><button class='btn btn-inverse'>Back</button></a> " ?>
 					</center>
 				</div>
@@ -171,7 +175,7 @@
 					<ul>
 						<li>You are guaranteed that your product will be deliver 2-3 days upon ordering.</li>
 						<li>Guaranteed time maybe suspended depending on the weather conditions for the safety of our delivery personnel.</li>
-						<li>All prices quoted are in Philippine pesos. Price and availability information is subject to change without notice.</li>
+						<li>All prices quoted are in Tanzanian shillings. Price and availability information is subject to change without notice.</li>
 						<li>Mode of payment are as follows:customers with paypal account can pay through paypal otherwise Cash on Delivery(COD).</li>
 						<li>Upon receiving your product we will charge for delivering for only 150 pesos, depending on the location.</li>
 					</ul>
